@@ -1,0 +1,23 @@
+In python possiamo usare +, -, *, / per eseguire le operazioni con i numeri
+
+La divisione è particolare in quanto se per esempio eseguiamo 10/4 = 2, se ci servono i decimali dobbiamo dichiarare il numero come decimale oppure descriverlo come 10.0/4 = 2.5.
+
+è possibile anche solamente far visualizzare solo il resto con % ad esempio 10%2=0 11%2=1
+Attenzione che senza resto per Python 10/2=11/2, invece se deve rispondere come false, dobbiamo mettere l'operatore "è strettamente uguale a" e si scrive con ==.
+
+Il + è particolare perché si può usare anche per concatenare le stringhe ad esempio:
+
+a ="bello e"; b= " buono "
+print a+b # bello e buono
+
+Il * serve anche per ripetere quella lettera/parola tot volte oltre ad eseguire moltiplicazioni con i numeri ad esempio:
+
+**a = "A"*4**
+print a # AAAA
+
+Nelle liste viene usato come con le stringhe ovvero:
+
+a = [1,2,3]
+b = [4,5,6]
+a + b = [1,2,3,4,5,6]
+a * 2 = [1,2,3,1,2,3]

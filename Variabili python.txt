@@ -1,0 +1,29 @@
+Per dichiare un intero in Python useremo:
+
+numero = 7
+
+Per dichiarare un numero decimale useremo:
+
+numero = 4.0
+numero = float(4)
+
+Per dichiarare una stringa basta metterla tra ' oppure ":
+
+parola = 'testo'
+parola = "testo"
+
+Se uso le " posso usare l'apostrofo nel mezzo altrimenti se la stringa la uso con ' se devo mettere l'apostrofo viene intesa come terminatore della stringa.
+
+Posso concatenare le stringe ed i numeri con l'operatore +
+
+one = 1
+two = 2
+three = one + two
+
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+
+Ma non posso fare questo mischiando numeri e stringhe
+
+print one + two + hello # non va

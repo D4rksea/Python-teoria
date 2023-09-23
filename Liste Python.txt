@@ -1,0 +1,15 @@
+Le liste in Python posso contenere qualsiasi tipo di variabili (sia numeri che stringhe), degli esempi sono:
+
+lista = []
+lista.append(1)
+lista.append(2)
+lista.append(3)
+print(lista[0]) # prints 1 ricordiamo che inizia a contare da 0
+print(lista[1]) # prints 2
+print(lista[2]) # prints 3
+
+# Stampa 1, 2, 3
+for x in lista:
+    print x
+
+Se proviamo ad accedere ad un indice che non è presente come ad esempio 10 Python genererà un errore
